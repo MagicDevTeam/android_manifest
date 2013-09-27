@@ -1,6 +1,6 @@
 Aosp 4.3
 
-    repo init -u git://github.com/SunRain/android.git -b aosp-4.3
+    repo init -u git://github.com/MagicDevTeam/android_manifest.git -b jb4.3
 
 To sync up:
 
