@@ -26,7 +26,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
-  <project path="android" name="MagicDevTeam/android_manifest" remote="mm" revision="jb4.3" groups="pdk" >
+  <project path="android" name="MagicDevTeam/android_manifest" remote="mm" revision="jb4.3" groups="pdk" />
   
   <project path="frameworks/base" name="MagicDevTeam/frameworks_base" remote="mm" revision="jb4.3" />
 
