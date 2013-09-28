@@ -42,27 +42,27 @@
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-10.2" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="external/dnsmasq" name="CyanogenMod/external_dnsmasq" remote="cm" revision="cm-10.2" groups="pdk"/>
-  <project path="external/e2fsprogs" name="CyanogenMod/external_e2fsprogs" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="cm" revision="cm-10.2" groups="pdk"/>
+  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="cm" revision="cm-10.2" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" remote="cm" revision="cm-10.2" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cm" revision="cm-10.2" />
-  <project path="external/icu4c" name="CyanogenMod/external_icu4c" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="external/jpeg" name="CyanogenMod/external_jpeg" remote="cm" revision="cm-10.2" />
-  <project path="external/kissfft" name="CyanogenMod/external_kissfft" remote="cm" revision="cm-10.2" />
+  <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="cm" revision="cm-10.2" />
+  <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" remote="cm" revision="cm-10.2" />
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="cm" revision="cm-10.2" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="cm" revision="cm-10.2"/> 
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="cm" revision="cm-10.2" groups="pdk"/>
-  <project path="external/libpng" name="CyanogenMod/external_libpng" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-10.2" /> 
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="cm" revision="cm-10.2" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="cm" revision="cm-10.2" />
-  <project path="external/qrngd" name="CyanogenMod/external_qrngd" remote="cm" revision="cm-10.2" />
+  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="cm" revision="cm-10.2" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="cm" revision="cm-10.2" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-10.2" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="cm" revision="cm-10.2" groups="pdk"/>
-  <project path="external/webkit" name="CyanogenMod/external_webkit" remote="cm" revision="cm-10.2" />
+  <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="cm" revision="cm-10.2" />
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-10.2" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.2" groups="pdk" />
