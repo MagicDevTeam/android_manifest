@@ -28,7 +28,7 @@
   
   <project path="android" name="MagicDevTeam/android_manifest" remote="mm" revision="jb4.3" groups="pdk" />
   
-  <project path="frameworks/base" name="MagicDevTeam/frameworks_base" remote="mm" revision="jb4.3" />
+  <project path="frameworks/base" name="MagicDevTeam/android_frameworks_base" remote="mm" revision="jb4.3" />
 
   <!--===============================================================================
 			    CyanogenMod Repo
