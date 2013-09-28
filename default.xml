@@ -19,9 +19,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <!--===============================================================================
-                             MagicMod Repo
-    =================================================================================-->
+  <!-- =============== MagicMod Repo ================ -->
   <project path="build" name="MagicDevTeam/android_build" remote="mm" revision="jb4.3" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -30,9 +28,7 @@
   
   <project path="frameworks/base" name="MagicDevTeam/android_frameworks_base" remote="mm" revision="jb4.3" />
 
-  <!--===============================================================================
-			    CyanogenMod Repo
-  =================================================================================-->
+  <!-- ================= CyanogenMod Repo ================ -->
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.2" groups="pdk" />
   
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.2" />
@@ -125,9 +121,7 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" remote="cm" revision="cm-10.2" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.2" />
    
-  <!--===============================================================================
-			    AOSP Repo
-  =================================================================================-->
+  <!-- ================== AOSP Repo =============== -->
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
