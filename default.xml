@@ -35,6 +35,8 @@
   
   <project path="frameworks/base" name="MagicDevTeam/android_frameworks_base" remote="mm" revision="jb4.3" />
 
+  <project path="packages/apps/Settings" name="MagicDevTeam/android_packages_apps_Settings" remote="mm" revision="jb4.3" />
+
   <!-- ================= CyanogenMod Repo ================ -->
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.2" groups="pdk" />
   
@@ -359,7 +361,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
