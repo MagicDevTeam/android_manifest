@@ -39,6 +39,10 @@
 
   <project path="packages/apps/Settings" name="MagicDevTeam/android_packages_apps_Settings" remote="mm" revision="jb4.3" />
 
+  <project path="packages/providers/ContactsProvider" name="MagicDevTeam/android_packages_providers_ContactsProvider" remote="mm" revision="jb4.3" />
+  <project path="packages/providers/MediaProvider" name="MagicDevTeam/android_packages_providers_MediaProvider" remote="mm" revision="jb4.3" />
+  <project path="packages/providers/TelephonyProvider" name="MagicDevTeam/android_packages_providers_TelephonyProvider" remote="mm" revision="jb4.3" />
+
   <!-- ================= CyanogenMod Repo ================ -->
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.2" groups="pdk" />
   
@@ -376,12 +380,9 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
