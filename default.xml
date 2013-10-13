@@ -31,6 +31,8 @@
   
   <project path="android" name="MagicDevTeam/android_manifest" remote="mm" revision="jb4.3" groups="pdk" />
 
+  <project path="dalvik" name="MagicDevTeam/android_dalvik" remote="mm" revision="jb4.3" />
+
   <project path="device/generic/goldfish" name="MagicDevTeam/android_device_generic_goldfish" remote="mm" revision="jb4.3" groups="pdk" />
   
   <project path="frameworks/base" name="MagicDevTeam/android_frameworks_base" remote="mm" revision="jb4.3" />
@@ -136,7 +138,6 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
