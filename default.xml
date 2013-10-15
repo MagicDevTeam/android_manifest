@@ -36,6 +36,7 @@
   <project path="device/generic/goldfish" name="MagicDevTeam/android_device_generic_goldfish" remote="mm" revision="jb4.3" groups="pdk" />
   
   <project path="frameworks/base" name="MagicDevTeam/android_frameworks_base" remote="mm" revision="jb4.3" />
+  <project path="frameworks/support" name="MagicDevTeam/android_frameworks_support" remote="mm" revision="jb4.3" />
 
   <project path="packages/apps/Settings" name="MagicDevTeam/android_packages_apps_Settings" remote="mm" revision="jb4.3" />
 
@@ -332,7 +333,6 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
