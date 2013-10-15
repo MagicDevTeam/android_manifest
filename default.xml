@@ -39,6 +39,7 @@
   <project path="frameworks/support" name="MagicDevTeam/android_frameworks_support" remote="mm" revision="jb4.3" />
 
   <project path="packages/apps/Settings" name="MagicDevTeam/android_packages_apps_Settings" remote="mm" revision="jb4.3" />
+  <project path="packages/apps/ThemeManager" name="MagicDevTeam/android_packages_apps_ThemeManager" remote="mm" revision="jb4.3" />
 
   <project path="packages/providers/ContactsProvider" name="MagicDevTeam/android_packages_providers_ContactsProvider" remote="mm" revision="jb4.3" />
   <project path="packages/providers/MediaProvider" name="MagicDevTeam/android_packages_providers_MediaProvider" remote="mm" revision="jb4.3" />
