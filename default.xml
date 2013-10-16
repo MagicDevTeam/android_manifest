@@ -45,6 +45,8 @@
   <project path="packages/providers/MediaProvider" name="MagicDevTeam/android_packages_providers_MediaProvider" remote="mm" revision="jb4.3" />
   <project path="packages/providers/TelephonyProvider" name="MagicDevTeam/android_packages_providers_TelephonyProvider" remote="mm" revision="jb4.3" />
 
+  <project path="vendor/mm" name="MagicDevTeam/android_vendor_mm" remote="mm" revision="jb4.3" />
+
   <!-- ================= CyanogenMod Repo ================ -->
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.2" groups="pdk" />
   
@@ -134,10 +136,9 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="system/security" name="CyanogenMod/android_system_security" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="cm" revision="cm-10.2" groups="pdk" />
-   
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" remote="cm" revision="cm-10.2" />
+
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.2" />
-   
+
   <!-- ================== AOSP Repo =============== -->
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
