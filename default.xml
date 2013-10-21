@@ -34,8 +34,10 @@
   <project path="dalvik" name="MagicDevTeam/android_dalvik" remote="mm" revision="jb4.3" />
 
   <project path="device/generic/goldfish" name="MagicDevTeam/android_device_generic_goldfish" remote="mm" revision="jb4.3" groups="pdk" />
-  
+
+  <project path="frameworks/av" name="MagicDevTeam/android_frameworks_av" remote="mm" revision="jb4.3" groups="pdk" />
   <project path="frameworks/base" name="MagicDevTeam/android_frameworks_base" remote="mm" revision="jb4.3" />
+  <project path="frameworks/native" name="MagicDevTeam/android_frameworks_native" remote="mm" revision="jb4.3" groups="pdk" />
   <project path="frameworks/support" name="MagicDevTeam/android_frameworks_support" remote="mm" revision="jb4.3" />
 
   <project path="hardware/broadcom/libbt" name="MagicDevTeam/android_hardware_broadcom_libbt"  remote="mm" revision="jb4.3" groups="pdk" />
@@ -106,8 +108,6 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.2" groups="pdk" />
 
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" remote="cm" revision="cm-10.2" />
