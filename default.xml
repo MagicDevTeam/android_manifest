@@ -44,7 +44,7 @@
   <project path="hardware/libhardware_legacy" name="MagicDevTeam/android_hardware_libhardware_legacy" remote="mm" revision="jb4.3" groups="pdk" />
   <project path="hardware/qcom/audio" name="MagicDevTeam/android_hardware_qcom_audio" remote="mm" revision="jb4.3" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="MagicDevTeam/android_hardware_qcom_audio-caf" remote="mm" revision="jb4.3" groups="caf" />
-  <project path="hardware/qcom/bt" name="MagicDevTeam/android_hardware_qcom_bt" remote="mm" revision="jb4.3 groups="qcom" />
+  <project path="hardware/qcom/bt" name="MagicDevTeam/android_hardware_qcom_bt" remote="mm" revision="jb4.3" groups="qcom" />
   <project path="hardware/qcom/display" name="MagicDevTeam/android_hardware_qcom_display" remote="mm" revision="jb4.3" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="MagicDevTeam/android_hardware_qcom_display-caf" remote="mm" revision="jb4.3" groups="caf" />
   <project path="hardware/qcom/gps" name="MagicDevTeam/android_hardware_qcom_gps" remote="mm" revision="jb4.3" groups="qcom" />
