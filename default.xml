@@ -44,20 +44,20 @@
   <project path="hardware/broadcom/wlan" name="MagicDevTeam/android_hardware_broadcom_wlan" remote="mm" revision="jb4.3" groups="broadcom_wlan" />
   <project path="hardware/libhardware" name="MagicDevTeam/android_hardware_libhardware" remote="mm" revision="jb4.3" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="MagicDevTeam/android_hardware_libhardware_legacy" remote="mm" revision="jb4.3" groups="pdk" />
-  <project path="hardware/qcom/audio" name="MagicDevTeam/android_hardware_qcom_audio" remote="mm" revision="jb4.3"" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="MagicDevTeam/android_hardware_qcom_audio-caf" remote="mm" revision="jb4.3"" groups="caf" />
-  <project path="hardware/qcom/bt" name="MagicDevTeam/android_hardware_qcom_bt" remote="mm" revision="jb4.3"" groups="qcom" />
-  <project path="hardware/qcom/display" name="MagicDevTeam/android_hardware_qcom_display" remote="mm" revision="jb4.3"" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="MagicDevTeam/android_hardware_qcom_display-caf" remote="mm" revision="jb4.3"" groups="caf" />
-  <project path="hardware/qcom/gps" name="MagicDevTeam/android_hardware_qcom_gps" remote="mm" revision="jb4.3"" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="MagicDevTeam/android_hardware_qcom_keymaster" remote="mm" revision="jb4.3"" groups="qcom" />
-  <project path="hardware/qcom/media" name="MagicDevTeam/android_hardware_qcom_media" remote="mm" revision="jb4.3"" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="MagicDevTeam/android_hardware_qcom_media-caf" remote="mm" revision="jb4.3"" groups="caf" />
-  <project path="hardware/qcom/msm8960" name="MagicDevTeam/android_hardware_qcom_msm8960" remote="mm" revision="jb4.3"" groups="qcom_msm8960" />
-  <project path="hardware/qcom/power" name="MagicDevTeam/android_hardware_qcom_power" remote="mm" revision="jb4.3"" />
-  <project path="hardware/qcom/wlan" name="MagicDevTeam/android_hardware_qcom_wlan" remote="mm" revision="jb4.3"" />
-  <project path="hardware/ril" name="MagicDevTeam/android_hardware_ril" remote="mm" revision="jb4.3"" groups="pdk" />
-  <project path="hardware/ti/omap4xxx" name="MagicDevTeam/android_hardware_ti_omap4xxx" remote="mm" revision="jb4.3"" />
+  <project path="hardware/qcom/audio" name="MagicDevTeam/android_hardware_qcom_audio" remote="mm" revision="jb4.3" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="MagicDevTeam/android_hardware_qcom_audio-caf" remote="mm" revision="jb4.3" groups="caf" />
+  <project path="hardware/qcom/bt" name="MagicDevTeam/android_hardware_qcom_bt" remote="mm" revision="jb4.3" groups="qcom" />
+  <project path="hardware/qcom/display" name="MagicDevTeam/android_hardware_qcom_display" remote="mm" revision="jb4.3" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="MagicDevTeam/android_hardware_qcom_display-caf" remote="mm" revision="jb4.3" groups="caf" />
+  <project path="hardware/qcom/gps" name="MagicDevTeam/android_hardware_qcom_gps" remote="mm" revision="jb4.3" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="MagicDevTeam/android_hardware_qcom_keymaster" remote="mm" revision="jb4.3" groups="qcom" />
+  <project path="hardware/qcom/media" name="MagicDevTeam/android_hardware_qcom_media" remote="mm" revision="jb4.3" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="MagicDevTeam/android_hardware_qcom_media-caf" remote="mm" revision="jb4.3" groups="caf" />
+  <project path="hardware/qcom/msm8960" name="MagicDevTeam/android_hardware_qcom_msm8960" remote="mm" revision="jb4.3" groups="qcom_msm8960" />
+  <project path="hardware/qcom/power" name="MagicDevTeam/android_hardware_qcom_power" remote="mm" revision="jb4.3" />
+  <project path="hardware/qcom/wlan" name="MagicDevTeam/android_hardware_qcom_wlan" remote="mm" revision="jb4.3" />
+  <project path="hardware/ril" name="MagicDevTeam/android_hardware_ril" remote="mm" revision="jb4.3" groups="pdk" />
+  <project path="hardware/ti/omap4xxx" name="MagicDevTeam/android_hardware_ti_omap4xxx" remote="mm" revision="jb4.3" />
   <project path="hardware/ti/wlan" name="MagicDevTeam/android_hardware_ti_wlan" remote="mm" revision="jb4.3" groups="pdk" />
 
   <project path="packages/apps/Contacts" name="MagicDevTeam/android_packages_apps_Contacts" remote="mm" revision="jb4.3" />
