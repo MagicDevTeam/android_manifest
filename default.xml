@@ -38,6 +38,7 @@
   <project path="frameworks/av" name="MagicDevTeam/android_frameworks_av" remote="mm" revision="jb4.3" groups="pdk" />
   <project path="frameworks/base" name="MagicDevTeam/android_frameworks_base" remote="mm" revision="jb4.3" />
   <project path="frameworks/native" name="MagicDevTeam/android_frameworks_native" remote="mm" revision="jb4.3" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="MagicDevTeam/android_frameworks_opt_telephony" remote="mm" revision="jb4.3" groups="pdk" />
   <project path="frameworks/support" name="MagicDevTeam/android_frameworks_support" remote="mm" revision="jb4.3" />
 
   <project path="hardware/broadcom/libbt" name="MagicDevTeam/android_hardware_broadcom_libbt"  remote="mm" revision="jb4.3" groups="pdk" />
@@ -64,6 +65,7 @@
   <project path="packages/apps/ContactsCommon" name="MagicDevTeam/android_packages_apps_ContactsCommon" remote="mm" revision="jb4.3" />
   <project path="packages/apps/Dialer" name="MagicDevTeam/android_packages_apps_Dialer" remote="mm" revision="jb4.3" />
   <project path="packages/apps/FileExplorer" name="MagicDevTeam/android_packages_apps_FileExplorer" remote="mm" revision="jb4.3" />
+  <project path="packages/apps/Phone" name="MagicDevTeam/android_packages_apps_Phone" remote="mm" revision="jb4.3" />
   <project path="packages/apps/Settings" name="MagicDevTeam/android_packages_apps_Settings" remote="mm" revision="jb4.3" />
   <project path="packages/apps/ThemeManager" name="MagicDevTeam/android_packages_apps_ThemeManager" remote="mm" revision="jb4.3" />
 
@@ -111,7 +113,6 @@
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" remote="cm" revision="cm-10.2" />
-  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" remote="cm" revision="cm-10.2" />
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" remote="cm" revision="cm-10.2" />
@@ -128,7 +129,6 @@
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" remote="cm" revision="cm-10.2" />
    
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.2" />
  
