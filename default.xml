@@ -90,6 +90,7 @@
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="cm" revision="cm-10.2" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" remote="cm" revision="cm-10.2" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cm" revision="cm-10.2" />
+  <project path="external/google" name="CyanogenMod/android_external_google" remote="cm" revision="cm-10.2" />
   <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="cm" revision="cm-10.2" />
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" remote="cm" revision="cm-10.2" />
