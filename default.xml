@@ -66,6 +66,7 @@
   <project path="packages/apps/Dialer" name="MagicDevTeam/android_packages_apps_Dialer" remote="mm" revision="jb4.3" />
   <project path="packages/apps/FileExplorer" name="MagicDevTeam/android_packages_apps_FileExplorer" remote="mm" revision="jb4.3" />
   <project path="packages/apps/Mms" name="MagicDevTeam/android_packages_apps_Mms"  remote="mm" revision="jb4.3" />
+  <project path="packages/apps/PerformanceControl" name="MagicDevTeam/android_packages_apps_PerformanceControl" remote="mm" revision="jb4.3" />
   <project path="packages/apps/Phone" name="MagicDevTeam/android_packages_apps_Phone" remote="mm" revision="jb4.3" />
   <project path="packages/apps/Settings" name="MagicDevTeam/android_packages_apps_Settings" remote="mm" revision="jb4.3" />
   <project path="packages/apps/ThemeManager" name="MagicDevTeam/android_packages_apps_ThemeManager" remote="mm" revision="jb4.3" />
