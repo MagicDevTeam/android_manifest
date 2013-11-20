@@ -23,7 +23,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" remote="mm" revision="kitkat" groups="pdk" >
+  <project path="build" name="MagicDevTeam/android_build" remote="mm" revision="kitkat" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
