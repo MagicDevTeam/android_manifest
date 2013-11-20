@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="http://android.googlesource.com/"
+           fetch="https://android.googlesource.com/"
            review="android-review.googlesource.com" />
 
   <remote  name="mm"
@@ -448,6 +448,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   
   <!--MagicDevTeam-->
-  <project path="vendor/mm" name="MagicDevTeam/android_vendor_mm" remote="mm" />
+  <project path="vendor/mm" name="MagicDevTeam/android_vendor_mm" remote="mm" revision="kitkat" />
 
 </manifest>
