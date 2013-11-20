@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
+           fetch="http://android.googlesource.com/"
            review="android-review.googlesource.com" />
 
   <remote  name="mm"
@@ -446,5 +446,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  
+  <!--MagicDevTeam-->
+  <project path="vendor/mm" name="MagicDevTeam/android_vendor_mm" remote="mm" />
 
 </manifest>
