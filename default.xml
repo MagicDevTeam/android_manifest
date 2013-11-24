@@ -102,6 +102,7 @@
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="cm" revision="cm-10.2" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="cm" revision="cm-10.2"/> 
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="cm" revision="cm-10.2" groups="pdk"/>
+  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" remote="cm" revision="cm-10.2" groups="nxp_nfc" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-10.2" /> 
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" remote="cm" revision="cm-10.2" groups="pdk" />
@@ -137,6 +138,7 @@
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="cm" revision="cm-10.2" />
    
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.2" />
@@ -254,7 +256,6 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="nxp_nfc" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -374,7 +375,6 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
