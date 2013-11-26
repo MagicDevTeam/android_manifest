@@ -23,7 +23,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="MagicDevTeam/android_build" remote="mm" revision="kitkat" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -446,5 +446,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  
+  <!--MagicDevTeam-->
+  <project path="vendor/mm" name="MagicDevTeam/android_vendor_mm" remote="mm" revision="kitkat" />
 
 </manifest>
