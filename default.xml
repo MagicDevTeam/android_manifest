@@ -117,9 +117,9 @@
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_camera" remote="cm" revision="cm-11.0" groups="qcom" />
-  <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_msm8x74" remote="cm" revision="cm-11.0" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_sensors" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" remote="cm" revision="cm-11.0" groups="qcom_msm8x74" />
+  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="cm" revision="cm-11.0" groups="qcom" />
 
   <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" revision="cm-11.0" />
 
