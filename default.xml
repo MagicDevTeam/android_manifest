@@ -127,7 +127,7 @@
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="cm" revision="cm-11.0" />
+  <!-- project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="cm" revision="cm-11.0" / -->
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="cm" revision="cm-11.0" />
 
