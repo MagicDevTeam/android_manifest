@@ -113,7 +113,7 @@
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" remote="cm" revision="cm-11.0" />
 
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-11.0" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="cm" revision="cm-11.0" />
+  <!-- project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="cm" revision="cm-11.0" / -->
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
