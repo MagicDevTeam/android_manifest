@@ -73,10 +73,13 @@
 
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" groups="pdk" />
 
+  <project path="external/bash" name="CyanogenMod/android_external_bash" emote="cm" revision="cm-11.0" />
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-11.0" />
   <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="cm" revision="cm-11.0" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" emote="cm" revision="cm-11.0" />
+  <project path="external/crda" name="CyanogenMod/android_external_crda" emote="cm" revision="cm-11.0" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="cm" revision="cm-11.0" groups="pdk"/>
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="cm" revision="cm-11.0" />
@@ -84,9 +87,14 @@
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" remote="cm" revision="cm-11.0" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cm" revision="cm-11.0" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="cm" revision="cm-11.0" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" emote="cm" revision="cm-11.0" />
+  <project path="external/heimdall" name="CyanogenMod/android_external_heimdall" emote="cm" revision="cm-11.0" />
+  <project path="external/htop" name="CyanogenMod/android_external_htop" emote="cm" revision="cm-11.0" />
   <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="cm" revision="cm-11.0" />
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/ion" name="CyanogenMod/ion" emote="cm" revision="cm-11.0" />
+  <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" emote="cm" revision="cm-11.0" />
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="cm" revision="cm-11.0"/> 
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="cm" revision="cm-11.0" groups="pdk"/>
@@ -94,11 +102,21 @@
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-11.0" /> 
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" emote="cm" revision="cm-11.0" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="cm" revision="cm-11.0" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="cm" revision="cm-11.0" />
+  <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" remote="cm" revision="cm-11.0" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="cm" revision="cm-11.0" />
+  <project path="external/powertop" name="CyanogenMod/android_external_powertop" remote="cm" revision="cm-11.0" />
+  <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="cm" revision="cm-11.0" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="cm" revision="cm-11.0" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-11.0" />
+  <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="external/libusb" name="CyanogenMod/android_external_libusb" remote="cm" revision="cm-11.0" />
+  <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" remote="cm" revision="cm-11.0" />
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="cm" revision="cm-11.0" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="cm" revision="cm-11.0" />
+  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="cm" revision="cm-11.0" groups="pdk"/>
   <!-- project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="cm" revision="cm-11.0" / -->
   <!-- project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-11.0" / -->
@@ -278,7 +296,6 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
-  <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
@@ -340,7 +357,6 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
