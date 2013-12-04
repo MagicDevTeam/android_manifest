@@ -62,6 +62,7 @@
   <project path="packages/providers/ContactsProvider" name="MagicDevTeam/android_packages_providers_ContactsProvider" remote="mm" revision="kitkat" />
   <project path="packages/providers/MediaProvider" name="MagicDevTeam/android_packages_providers_MediaProvider" remote="mm" revision="kitkat" />
   <project path="packages/providers/TelephonyProvider" name="MagicDevTeam/android_packages_providers_TelephonyProvider" remote="mm" revision="kitkat" />
+  <project path="packages/services/Telephony" name="MagicDevTeam/android_packages_services_Telephony" remote="mm" revision="kitkat" />
 
   <project path="vendor/mm" name="MagicDevTeam/android_vendor_mm" remote="mm" revision="kitkat" />
 
@@ -444,7 +445,6 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
