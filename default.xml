@@ -6,7 +6,7 @@
            review="android-review.googlesource.com" />
 
   <remote  name="mm"
-           fetch="git@github.com/"
+           fetch="ssh://git@github.com/"
 	   review="gerrit.591fan.com" />
 
   <remote  name="cm"
