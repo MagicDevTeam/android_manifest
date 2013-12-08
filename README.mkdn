@@ -6,3 +6,29 @@ To sync up:
 
     repo sync
 
+=================================================
+
+To Gerrit
+
+http://gerrit.591fan.com
+
+使用OpenId注册和登入
+
+使用之前先配置全局git用户信息包括
+git config --global user.name [username]
+git config --global user.email [email]
+
+git config --global review.gerrit.591fan.com.username [username]
+
+其中review.gerrit.591fan.com.username的username必须是你在gerrit里面设置的Username,因为这个和之后build里面的相关快捷命令耦合
+
+
+
+推送change
+
+. build/envsetup.sh
+进入某个project,比如build
+进入一个工作目录,比如临时目录 upstream
+使用mmgerrit推送,比如要推送到工作目录master,可以使用 mmgerrit upstream:master会自动推送
+
+
