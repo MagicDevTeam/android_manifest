@@ -20,7 +20,7 @@
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
-  <default revision="refs/tags/android-4.4_r1.2"
+  <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -69,7 +69,6 @@
   <project path="packages/apps/Settings" name="MagicDevTeam/android_packages_apps_Settings" remote="mm" revision="kitkat" />
   <!-- project path="packages/apps/Stk" name="MagicDevTeam/android_packages_apps_Stk"  remote="mm" revision="kitkat" / -->
   <!-- project path="packages/apps/ThemeManager" name="MagicDevTeam/android_packages_apps_ThemeManager" remote="mm" revision="kitkat" / -->
-
   <project path="packages/providers/ContactsProvider" name="MagicDevTeam/android_packages_providers_ContactsProvider" remote="mm" revision="kitkat" />
   <project path="packages/providers/MediaProvider" name="MagicDevTeam/android_packages_providers_MediaProvider" remote="mm" revision="kitkat" />
   <project path="packages/providers/MMPhoneNumGeoProvider" name="MagicDevTeam/android_packages_providers_MMPhoneNumGeoProvider" remote="mm" revision="kitkat" />

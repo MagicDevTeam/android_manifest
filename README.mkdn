@@ -12,23 +12,93 @@ To Gerrit
 
 http://gerrit.591fan.com
 
+
 使用OpenId注册和登入
 
 使用之前先配置全局git用户信息包括
+
 git config --global user.name [username]
 git config --global user.email [email]
 
-git config --global review.gerrit.591fan.com.username [username]
+git config --global review.gerrit.591fan.com.username [reviewer]
 
-其中review.gerrit.591fan.com.username的username必须是你在gerrit里面设置的Username,因为这个和之后build里面的相关快捷命令耦合
 
+其中review.gerrit.591fan.com.username的reviewer必须是你在gerrit网站登入以后设置的Username,因为这个和下面说明里面的一些快捷命令耦合
+
+
+=====================================================================
+
+
+拷贝changeId所需的git钩子
+
+某些project设置了需要changeID才能推送到gerrit,所以需要首先得到changeID所需的钩子
+如果没有changeID,推送的时候可能会出现以下错误
+
+/*
+remote: ERROR: missing Change-Id in commit message
+
+remote: Suggestion for commit message:
+
+remote: change some repo to our github site
+
+remote:
+
+remote: Change-Id: I5c34ffa1f7ecb6c4b7fee8f6b28ae29d8ba0173f
+
+To .................
+
+ ! [remote rejected] ............... (missing Change-Id in commit message)
+ 
+error: 无法推送一些引用到 'ssh://................./android'
+
+*/
+
+进入你的工作目录,比如frameworks/base
+
+使用以下命令
+
+scp -p -P 29418 username@gerrit.591fan.com:hooks/commit-msg .git/hooks/
+
+其中,username是你在gerrit网站登入以后设置的Username
+
+你也可以浏览器访问http://gerrit.591fan.com/tools/hooks/commit-msg,然后手动复制下载的文件到.git/hooks目录下
+
+
+======================================================================
 
 
 推送change
 
-. build/envsetup.sh
-进入某个project,比如build
-进入一个工作目录,比如临时目录 upstream
-使用mmgerrit推送,比如要推送到工作目录master,可以使用 mmgerrit upstream:master会自动推送
+
+使用快捷命令
+
+1.在源码根目录执行 . build/envsetup.sh
+
+2.进入某个project,比如frameworks/base
+
+3.checkout进入一个branch,比如临时分支 upstream
+
+4.使用mmgerrit推送,比如要推送你的upstream到master,可以使用 mmgerrit push upstream:master
+
+
+TODO:使用git命令
+
+....
+
+
+====================================================================
+
+使用patchset
+
+当需要再次修改已经push到gerrit服务器的patch的时候,修改完代码后使用commit --amend保持changeID不变,以便push到同一个patch上面
+
+注意,使用git commit --amend（没有-m参数），同时不要改变编辑窗口中的change-Id
+
+对于git commit --amend -m,使用commit --amend时如果加了 -m 参数，commit-msg hook会为该commit生成一个新的Change-Id,在推送的时候就会变成一个新的patch
+
+
+修改完后和上面的推送change的方法一样,使用mmgerrit push推送,或者使用纯git命令推送
+
+
 
 
