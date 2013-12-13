@@ -75,6 +75,12 @@
   <project path="packages/providers/TelephonyProvider" name="MagicDevTeam/android_packages_providers_TelephonyProvider" remote="mm" revision="kitkat" />
   <project path="packages/services/Telephony" name="MagicDevTeam/android_packages_services_Telephony" remote="mm" revision="kitkat" />
 
+  <project path="system/core" name="MagicDevTeam/android_system_core" remote="mm" revision="kitkat" groups="pdk" />
+  <project path="system/extras" name="MagicDevTeam/android_system_extras" remote="mm" revision="kitkat" groups="pdk" />
+  <project path="system/media" name="MagicDevTeam/android_system_media" remote="mm" revision="kitkat" groups="pdk" />
+  <project path="system/netd" name="MagicDevTeam/android_system_netd" remote="mm" revision="kitkat" groups="pdk" />
+  <project path="system/vold" name="MagicDevTeam/android_system_vold" remote="mm" revision="kitkat" groups="pdk" />
+
   <project path="vendor/mm" name="MagicDevTeam/android_vendor_mm" remote="mm" revision="kitkat" />
 
   <!-- ================= CyanogenMod Repo ================ -->
@@ -164,13 +170,9 @@
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-11.0" />
 
   <!-- project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="cm" revision="cm-11.0" groups="pdk" / -->
-  <project path="system/core" name="CyanogenMod/android_system_core" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="system/media" name="CyanogenMod/android_system_media" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
+  
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="cm" revision="cm-11.0" groups="pdk" />
 
   <!-- project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" remote="cm" revision="cm-11.0" /-->
 
