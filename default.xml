@@ -60,11 +60,11 @@
   <project path="hardware/ti/omap4xxx" name="MagicDevTeam/android_hardware_ti_omap4xxx" remote="mm" revision="kitkat" />
   <project path="hardware/ti/wlan" name="MagicDevTeam/android_hardware_ti_wlan" remote="mm" revision="kitkat" groups="pdk" />
 
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="mm" revision="kitkat" />
-  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="mm" revision="kitkat" />
+  <project path="packages/apps/Bluetooth" name="MagicDevTeam/android_packages_apps_Bluetooth" remote="mm" revision="kitkat" />
+  <project path="packages/apps/BluetoothExt" name="MagicDevTeam/android_packages_apps_BluetoothExt" remote="mm" revision="kitkat" />
   <project path="packages/apps/ContactsCommon" name="MagicDevTeam/android_packages_apps_ContactsCommon" remote="mm" revision="kitkat" />
   <project path="packages/apps/Dialer" name="MagicDevTeam/android_packages_apps_Dialer" remote="mm" revision="kitkat" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="mm" revision="kitkat" />
+  <project path="packages/apps/DSPManager" name="MagicDevTeam/android_packages_apps_DSPManager" remote="mm" revision="kitkat" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/Mms" name="MagicDevTeam/android_packages_apps_Mms"  remote="mm" revision="kitkat" />
   <project path="packages/apps/PerformanceControl" name="MagicDevTeam/android_packages_apps_PerformanceControl" remote="mm" revision="kitkat" />
