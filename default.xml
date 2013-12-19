@@ -137,6 +137,7 @@
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="cm" revision="cm-11.0" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-11.0" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" remote="cm" revision="cm-11.0" />
   <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" remote="cm" revision="cm-11.0" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="cm" revision="cm-11.0" />
@@ -364,7 +365,6 @@
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
