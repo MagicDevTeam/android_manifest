@@ -68,13 +68,14 @@
   <project path="packages/apps/ContactsCommon" name="MagicDevTeam/android_packages_apps_ContactsCommon" remote="mm" revision="kitkat" />
   <project path="packages/apps/Dialer" name="MagicDevTeam/android_packages_apps_Dialer" remote="mm" revision="kitkat" />
   <project path="packages/apps/DSPManager" name="MagicDevTeam/android_packages_apps_DSPManager" remote="mm" revision="kitkat" />
+  <project path="packages/apps/FileExplorer" name="MagicDevTeam/android_packages_apps_FileExplorer" remote="mm" revision="kitkat" />
   <project path="packages/apps/InCallUI" name="MagicDevTeam/android_packages_apps_InCallUI" remote="mm" revision="kitkat" />
   <project path="packages/apps/Mms" name="MagicDevTeam/android_packages_apps_Mms"  remote="mm" revision="kitkat" />
   <project path="packages/apps/PerformanceControl" name="MagicDevTeam/android_packages_apps_PerformanceControl" remote="mm" revision="kitkat" />
   <!-- project path="packages/apps/Phone" name="MagicDevTeam/android_packages_apps_Phone" remote="mm" revision="kitkat" / -->
   <project path="packages/apps/Settings" name="MagicDevTeam/android_packages_apps_Settings" remote="mm" revision="kitkat" />
   <!-- project path="packages/apps/Stk" name="MagicDevTeam/android_packages_apps_Stk"  remote="mm" revision="kitkat" / -->
-  <!-- project path="packages/apps/ThemeManager" name="MagicDevTeam/android_packages_apps_ThemeManager" remote="mm" revision="kitkat" / -->
+  <project path="packages/apps/ThemeManager" name="MagicDevTeam/android_packages_apps_ThemeManager" remote="mm" revision="kitkat" />
 
 
   <project path="packages/providers/ContactsProvider" name="MagicDevTeam/android_packages_providers_ContactsProvider" remote="mm" revision="kitkat" />
