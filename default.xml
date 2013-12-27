@@ -71,6 +71,7 @@
   <project path="packages/apps/FileExplorer" name="MagicDevTeam/android_packages_apps_FileExplorer" remote="mm" revision="kitkat" />
   <project path="packages/apps/InCallUI" name="MagicDevTeam/android_packages_apps_InCallUI" remote="mm" revision="kitkat" />
   <project path="packages/apps/Mms" name="MagicDevTeam/android_packages_apps_Mms"  remote="mm" revision="kitkat" />
+  <project path="packages/apps/Launcher3" name="MagicDevTeam/android_packages_apps_Launcher3" remote="mm" revision="kitkat" />
   <project path="packages/apps/PerformanceControl" name="MagicDevTeam/android_packages_apps_PerformanceControl" remote="mm" revision="kitkat" />
   <!-- project path="packages/apps/Phone" name="MagicDevTeam/android_packages_apps_Phone" remote="mm" revision="kitkat" / -->
   <project path="packages/apps/Settings" name="MagicDevTeam/android_packages_apps_Settings" remote="mm" revision="kitkat" />
@@ -424,7 +425,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
