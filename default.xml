@@ -65,11 +65,13 @@
 
   <project path="packages/apps/Bluetooth" name="MagicDevTeam/android_packages_apps_Bluetooth" remote="mm" revision="kitkat" />
   <project path="packages/apps/BluetoothExt" name="MagicDevTeam/android_packages_apps_BluetoothExt" remote="mm" revision="kitkat" />
+  <project path="packages/apps/Camera2" name="MagicDevTeam/android_packages_apps_Camera2" remote="mm" revision="kitkat" />
   <project path="packages/apps/ContactsCommon" name="MagicDevTeam/android_packages_apps_ContactsCommon" remote="mm" revision="kitkat" />
   <project path="packages/apps/Dialer" name="MagicDevTeam/android_packages_apps_Dialer" remote="mm" revision="kitkat" />
   <project path="packages/apps/DSPManager" name="MagicDevTeam/android_packages_apps_DSPManager" remote="mm" revision="kitkat" />
   <project path="packages/apps/FileExplorer" name="MagicDevTeam/android_packages_apps_FileExplorer" remote="mm" revision="kitkat" />
   <project path="packages/apps/InCallUI" name="MagicDevTeam/android_packages_apps_InCallUI" remote="mm" revision="kitkat" />
+  <project path="packages/apps/LegacyCamera" name="MagicDevTeam/android_packages_apps_LegacyCamera" remote="mm" revision="kitkat" />
   <project path="packages/apps/Mms" name="MagicDevTeam/android_packages_apps_Mms"  remote="mm" revision="kitkat" />
   <project path="packages/apps/Launcher3" name="MagicDevTeam/android_packages_apps_Launcher3" remote="mm" revision="kitkat" />
   <project path="packages/apps/PerformanceControl" name="MagicDevTeam/android_packages_apps_PerformanceControl" remote="mm" revision="kitkat" />
@@ -414,7 +416,6 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
@@ -426,7 +427,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
