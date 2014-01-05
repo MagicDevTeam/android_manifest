@@ -74,6 +74,7 @@
   <project path="packages/apps/LegacyCamera" name="MagicDevTeam/android_packages_apps_LegacyCamera" remote="mm" revision="kitkat" />
   <project path="packages/apps/Mms" name="MagicDevTeam/android_packages_apps_Mms"  remote="mm" revision="kitkat" />
   <project path="packages/apps/Launcher3" name="MagicDevTeam/android_packages_apps_Launcher3" remote="mm" revision="kitkat" />
+  <project path="packages/apps/PackageInstaller" name="MagicDevTeam/android_packages_apps_PackageInstaller" remote="mm" revision="kitkat" />
   <project path="packages/apps/PerformanceControl" name="MagicDevTeam/android_packages_apps_PerformanceControl" remote="mm" revision="kitkat" />
   <!-- project path="packages/apps/Phone" name="MagicDevTeam/android_packages_apps_Phone" remote="mm" revision="kitkat" / -->
   <project path="packages/apps/Settings" name="MagicDevTeam/android_packages_apps_Settings" remote="mm" revision="kitkat" />
@@ -82,6 +83,7 @@
 
 
   <project path="packages/providers/ContactsProvider" name="MagicDevTeam/android_packages_providers_ContactsProvider" remote="mm" revision="kitkat" />
+  <project path="packages/providers/DownloadProvider" name="MagicDevTeam/android_packages_providers_DownloadProvider" remote="mm" revision="kitkat" />
   <project path="packages/providers/MediaProvider" name="MagicDevTeam/android_packages_providers_MediaProvider" remote="mm" revision="kitkat" />
   <project path="packages/providers/MMPhoneNumGeoProvider" name="MagicDevTeam/android_packages_providers_MMPhoneNumGeoProvider" remote="mm" revision="kitkat" />
   <project path="packages/providers/TelephonyProvider" name="MagicDevTeam/android_packages_providers_TelephonyProvider" remote="mm" revision="kitkat" />
@@ -430,7 +432,6 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
@@ -451,7 +452,6 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
