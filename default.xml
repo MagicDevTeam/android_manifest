@@ -41,6 +41,7 @@
   <project path="frameworks/base" name="MagicDevTeam/android_frameworks_base" remote="mm" revision="kitkat" />
   <project path="frameworks/native" name="MagicDevTeam/android_frameworks_native" remote="mm" revision="kitkat" groups="pdk" />
   <project path="frameworks/opt/telephony" name="MagicDevTeam/android_frameworks_opt_telephony" remote="mm" revision="kitkat" groups="pdk" />
+  <project path="frameworks/rs" name="MagicDevTeam/android_frameworks_rs" remote="mm" revision="kitkat" groups="pdk" />
   <project path="frameworks/support" name="MagicDevTeam/android_frameworks_support" remote="mm" revision="kitkat" />
 
   <project path="hardware/broadcom/libbt" name="MagicDevTeam/android_hardware_broadcom_libbt"  remote="mm" revision="kitkat" groups="pdk" />
@@ -404,7 +405,6 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
