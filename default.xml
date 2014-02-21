@@ -32,6 +32,8 @@
 
   <project path="android" name="MagicDevTeam/android_manifest" remote="mm" revision="kitkat" groups="pdk" />
 
+  <project path="art" name="MagicDevTeam/android_art" remote="mm" revision="kitkat" />
+
   <project path="dalvik" name="MagicDevTeam/android_dalvik" remote="mm" revision="kitkat" />
 
   <project path="external/bluetooth/bluedroid" name="MagicDevTeam/android_external_bluetooth_bluedroid" remote="mm" revision="kitkat" groups="pdk" />
@@ -101,8 +103,6 @@
   <project path="vendor/mm" name="MagicDevTeam/android_vendor_mm" remote="mm" revision="kitkat" />
 
   <!-- ================= CyanogenMod Repo ================ -->
-
-  <project path="art" name="CyanogenMod/android_art" remote="cm" revision="cm-11.0" />
 
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-11.0" groups="pdk" />
 
