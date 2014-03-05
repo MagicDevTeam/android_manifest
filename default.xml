@@ -7,7 +7,7 @@
 
   <remote  name="mm"
            fetch="https://github.com/"
-	   review="gerrit.591fan.com" />
+	   review="s-83274.abc188.com:8080" />
 
   <remote  name="cm"
            fetch="https://github.com/"
