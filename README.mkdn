@@ -1,26 +1,29 @@
 Aosp 4.4
+======================================
 
     repo init -u git://github.com/MagicDevTeam/android_manifest.git -b kitkat
 
 To sync up:
+===============
 
     repo sync
 
-=================================================
 
 To Gerrit
+=========================
 
-http://gerrit.591fan.com
+    http://s-83274.abc188.com
 
 
 使用OpenId注册和登入
+------------------------------------
 
-使用之前先配置全局git用户信息包括
+### 使用之前先配置全局git用户信息包括
 
-git config --global user.name [username]
-git config --global user.email [email]
+    git config --global user.name [username]
+    git config --global user.email [email]
 
-git config --global review.gerrit.591fan.com.username [reviewer]
+    git config --global review.gerrit.591fan.com.username [reviewer]
 
 
 其中review.gerrit.591fan.com.username的reviewer必须是你在gerrit网站登入以后设置的Username,因为这个和下面说明里面的一些快捷命令耦合
@@ -30,45 +33,47 @@ git config --global review.gerrit.591fan.com.username [reviewer]
 
 
 拷贝changeId所需的git钩子
+------------------------------------------
 
-某些project设置了需要changeID才能推送到gerrit,所以需要首先得到changeID所需的钩子
-如果没有changeID,推送的时候可能会出现以下错误
+某些project设置了需要changeID才能推送到gerrit,所以需要首先得到changeID所需的钩子<br />
+如果没有changeID,推送的时候可能会出现以下错误<br />
 
-/*
-remote: ERROR: missing Change-Id in commit message
 
-remote: Suggestion for commit message:
+    /*
+    remote: ERROR: missing Change-Id in commit message
 
-remote: change some repo to our github site
+    remote: Suggestion for commit message:
 
-remote:
+    remote: change some repo to our github site
 
-remote: Change-Id: I5c34ffa1f7ecb6c4b7fee8f6b28ae29d8ba0173f
+    remote:
 
-To .................
+    remote: Change-Id: I5c34ffa1f7ecb6c4b7fee8f6b28ae29d8ba0173f
 
- ! [remote rejected] ............... (missing Change-Id in commit message)
+    To .................
+
+    ! [remote rejected] ............... (missing Change-Id in commit message)
  
-error: 无法推送一些引用到 'ssh://................./android'
-
-*/
+    error: 无法推送一些引用到 'ssh://................./android'
+    
+    */
 
 进入你的工作目录,比如frameworks/base
 
 使用以下命令
 
-scp -p -P 29418 username@gerrit.591fan.com:hooks/commit-msg .git/hooks/
+scp -p -P 29418 username@s-83274.abc188.com:hooks/commit-msg .git/hooks/
 
 其中,username是你在gerrit网站登入以后设置的Username
 
-你也可以浏览器访问http://gerrit.591fan.com/tools/hooks/commit-msg,然后手动复制下载的文件到.git/hooks目录下
+你也可以浏览器访问http://s-83274.abc188.com/tools/hooks/commit-msg,然后手动复制下载的文件到.git/hooks目录下
 
 
 ======================================================================
 
 
 推送change
-
+------------------------------------------------------------------
 
 使用快捷命令
 
