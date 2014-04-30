@@ -140,6 +140,7 @@
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" remote="cm" revision="cm-11.0" groups="nxp_nfc" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-11.0" /> 
+  <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="cm" revision="cm-11.0" />
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" revision="cm-11.0" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="cm" revision="cm-11.0" />
