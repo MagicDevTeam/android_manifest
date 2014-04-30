@@ -7,7 +7,7 @@
 
   <remote  name="mm"
            fetch="https://github.com/"
-	   review="gerrit.591fan.com" />
+	   review="s-83274.abc188.com" />
 
   <remote  name="cm"
            fetch="https://github.com/"
@@ -171,6 +171,8 @@
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" remote="cm" revision="cm-11.0" groups="qcom_msm8x74" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="cm" revision="cm-11.0" groups="qcom" />
 
