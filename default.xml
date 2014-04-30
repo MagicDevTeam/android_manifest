@@ -111,11 +111,13 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" groups="pdk" />
 
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" revision="cm-11.0" />
+  <project path="external/bson" name="CyanogenMod/android_external_bson" remote="cm" revision="cm-11.0" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-11.0" />
   <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="cm" revision="cm-11.0" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm" revision="cm-11.0" />
   <project path="external/crda" name="CyanogenMod/android_external_crda" remote="cm" revision="cm-11.0" />
+  <project path="external/curl" name="CyanogenMod/android_external_curl" remote="cm" revision="cm-11.0" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="cm" revision="cm-11.0" groups="pdk"/>
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="cm" revision="cm-11.0" />
