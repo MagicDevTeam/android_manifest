@@ -110,11 +110,14 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" groups="pdk" />
 
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" revision="cm-11.0" />
+  <project path="external/bson" name="CyanogenMod/android_external_bson" remote="cm" revision="cm-11.0" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-11.0" />
   <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="cm" revision="cm-11.0" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm" revision="cm-11.0" />
   <project path="external/crda" name="CyanogenMod/android_external_crda" remote="cm" revision="cm-11.0" />
+  <project path="external/chromium_org/third_party/openssl" name="CyanogenMod/android_external_chromium_org_third_party_openssl" remote="cm" revision="cm-11.0" />
+  <project path="external/curl" name="CyanogenMod/android_external_curl" remote="cm" revision="cm-11.0" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="cm" revision="cm-11.0" groups="pdk"/>
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="cm" revision="cm-11.0" />
@@ -136,6 +139,7 @@
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" remote="cm" revision="cm-11.0" groups="nxp_nfc" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-11.0" /> 
+  <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="cm" revision="cm-11.0" />
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" revision="cm-11.0" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="cm" revision="cm-11.0" />
@@ -143,6 +147,7 @@
   <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" remote="cm" revision="cm-11.0" />
   <!--project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="cm" revision="cm-11.0" / -->
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" remote="cm" revision="cm-11.0" />
+  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="cm" revision="cm-11.0" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="cm" revision="cm-11.0" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="cm" revision="cm-11.0" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-11.0" />
@@ -257,7 +262,6 @@
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" />
   <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" />
