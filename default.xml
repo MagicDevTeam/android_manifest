@@ -531,4 +531,18 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
+  <!-- MagicMod Supported Devices -->
+  <project path="device/lge/mako" name="MagicDevTeam/android_device_lge_mako" remote="mm" revision="kitkat" />
+  <project path="kernel/google/msm" name="MagicDevTeam/android_kernel_google_msm" remote="mm" revision="kitkat" />
+
+  <project path="device/lge/p880" name="MagicDevTeam/android_device_lge_p880" remote="mm" revision="kitkat" />
+  <project path="kernel/lge/p880" name="MagicDevTeam/lge-kernel-p880" remote="mm" revision="kitkat" />
+
+  <project path="device/motorola/edison" name="MagicDevTeam/android_device_motorola_edison" remote="mm" revision="kitkat" />
+  <project path="device/motorola/omap4-common" name="MagicDevTeam/android_device_motorola_omap4-common" remote="mm" revision="kitkat" />
+  <project path="kernel/motorola/omap4-common" name="MagicDevTeam/android_kernel_motorola_omap4-common" remote="mm" revision="kitkat" />
+
+  <project path="vendor/lge" name="MagicDevTeam/proprietary_vendor_lge" remote="mm" revision="kitkat" />
+  <project path="vendor/motorola" name="MagicDevTeam/proprietary_vendor_motorola" remote="mm" revision="kitkat" />
+
 </manifest>
